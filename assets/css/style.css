@@ -1,12 +1,8 @@
-/*-----------------------------------*\
-  #main.css
-\*-----------------------------------*/
+/* #main.css-*/
 
 :root {
 
-  /**
-   * colors
-   */
+  /**  colors*/
 
   --violet-blue-crayola: hsla(234, 50%, 64%, 1);
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
@@ -42,9 +38,7 @@
   
   --fw-700: 700;
 
-  /** 
-   * spacing
-   */
+  /**  spacing*/
 
   --section-padding: 90px;
 
@@ -80,9 +74,7 @@
 
 
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+/* #RESET */
 
 *,
 *::before,
@@ -150,9 +142,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+/* #REUSED STYLE-*/
 
 .container { padding-inline: 16px; }
 
@@ -245,9 +235,7 @@ body.nav-active { overflow: hidden; }
 .w-100 { width: 100%; }
 
 
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
+/* #HEADER-*/
 
 .header .btn { display: none; }
 
@@ -367,9 +355,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
+/* #HERO (slider ) */
 
 .hero {
   padding-block-start: calc(var(--section-padding) + 70px);
@@ -396,6 +382,7 @@ body.nav-active { overflow: hidden; }
   align-items: center;
   gap: 12px;
 }
+
 
 .hero-slider,
 .hero-card { position: relative; }
@@ -463,9 +450,7 @@ body.nav-active { overflow: hidden; }
 
 
 
-/*-----------------------------------*\
-  #SERVICE
-\*-----------------------------------*/
+/* #SERVICE-*/
 
 .service { text-align: center; }
 
@@ -555,48 +540,7 @@ body.nav-active { overflow: hidden; }
   padding-block-end: 20px;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #FEATURES
-\*-----------------------------------*/
-
-.feature .container {
-  display: grid;
-  gap: 50px;
-}
-
-.feature .section-text { margin-block: 25px 30px; }
-
-.feature-list {
-  display: grid;
-  gap: 15px;
-}
-
-.feature-card {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.feature-card .card-icon {
-  background-color: var(--lavender-web);
-  font-size: 1.4rem;
-  padding: 4px;
-  border-radius: var(--radius-circle);
-}
-
-.feature-card .card-icon ion-icon { --ionicon-stroke-width: 40px; }
-
-
-
-
-
-/*-----------------------------------*\
-  #STATS
-\*-----------------------------------*/
+/* #STATS  */
 
 .stats { background-image: linear-gradient(to bottom, var(--white) 50%, var(--cultured) 50%); }
 
@@ -610,10 +554,6 @@ body.nav-active { overflow: hidden; }
 }
 
 .stats-card .card-text > * { color: var(--white); }
-
-
-
-
 
 /*-----------------------------------*\
   #PROJECT
@@ -840,8 +780,6 @@ body.nav-active { overflow: hidden; }
 
   .hero-text { --fs-5: 2rem; }
 
-
-
   /**
    * SERVICE
    */
@@ -850,8 +788,6 @@ body.nav-active { overflow: hidden; }
     max-width: 30ch;
     margin-inline: auto;
   }
-
-
 
   /**
    * ABOUT
@@ -862,28 +798,7 @@ body.nav-active { overflow: hidden; }
     align-items: center;
   }
 
-
-
-  /**
-   * FEATURE
-   */
-
-  .feature .container {
-    grid-template-columns: 0.7fr 1fr;
-    align-items: center;
-  }
-
-  .feature-banner { order: 1; }
-
-}
-
-
-
-
-
-/**
- * responsive for large than 992px screen
- */
+/** responsive for large than 992px screen*/
 
 @media (min-width: 992px) {
 
@@ -1001,9 +916,6 @@ body.nav-active { overflow: hidden; }
   .footer .grid-list { grid-template-columns: repeat(4, 1fr); }
 
 }
-
-
-
 
 
 /**
