@@ -143,11 +143,33 @@ body {
   }
   
   .about-section {
-    padding: 50px;
+    padding: 20px;
     text-align: center;
-    background-color: #474e5d;
+    height: 50vh;
+   background-color: #5ce1e681;
     color: white;
+    position: relative;
+}
+
+.about-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-image: url("/assets/images/hero-bg.jpg");
+    background-size: cover;
+    opacity:1 ;
+    z-index: -1;
+}
+  .about-section h1{ 
+    position: absolute;
+    top: 90px;
+    left: 0;
+    margin:auto;
+    position: relative;
+    align-self: center;
   }
   
   .container {
