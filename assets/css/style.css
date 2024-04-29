@@ -474,6 +474,7 @@ body.nav-active { overflow: hidden; }
 .about .container {
   display: grid;
   gap: 50px;
+  
 }
 
 .about .section-title { margin-block-end: 35px; }
