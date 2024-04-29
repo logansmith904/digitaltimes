@@ -729,6 +729,7 @@ body.nav-active { overflow: hidden; }
     grid-template-columns: 1fr 0.7fr;
     align-items: center;
   }
+}
 
 /** responsive for large than 992px screen*/
 
