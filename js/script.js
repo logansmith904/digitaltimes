@@ -1,8 +1,11 @@
-var swiper = new Swiper(".slide-content", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+var swiperContainer = document.getElementsByClassName("slide-container")[0];
+var pagination = document.getElementsByClassName("swiper-pagination")[0];
+
+var swiper = new Swiper(swiperContainer, {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  pagination: {
+    el: pagination,
+    clickable: true,
+  },
+});
