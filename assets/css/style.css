@@ -230,7 +230,7 @@ body.nav-active { overflow: hidden; }
   width: 100%;
   padding-block: 20px;
   box-shadow: var(--shadow-1);
-  z-index: 4;
+  z-index: 999;
 }
 
 .header.active {
@@ -896,6 +896,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .players ul li {
-  margin: auto; /* Center the list items horizontally */
+  margin: auto;
+   /* Center the list items horizontally */
 }
 
