@@ -879,9 +879,23 @@ body.nav-active { overflow: hidden; }
   .feature-list { grid-template-columns: 1fr 1fr; }
 
 }
-.players{
+.players {
+  position: relative;
   display: block;
+  width: 80%;
+  margin: auto;
+
+
 }
-.players li{
-  display: flex;
+
+.players ul {
+  display: flex; /* Display the list items in a row */
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
 }
+
+.players ul li {
+  margin: auto; /* Center the list items horizontally */
+}
+
