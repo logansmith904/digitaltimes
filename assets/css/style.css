@@ -239,7 +239,7 @@ body.nav-active { overflow: hidden; }
 }
 /*  header style starts */
 .site-banner {
-	min-height: 400px;
+	min-height: 300px;
 	background-image: url('/assets/images/hero-bg.jpg');
 	background-size: cover;
 	background-position: center;
@@ -273,6 +273,7 @@ body.nav-active { overflow: hidden; }
 	padding: 40px 0px;
 	font-size: 3em;
 	margin: 0px;
+  background-color: #0f8fa7;
 }
 /*  header style ends */
 
@@ -385,6 +386,32 @@ img {
   align-items: center;
   gap: 16px;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.logo-ball {
+  height: 24px;
+  margin-left: 5px;
+  position: absolute;
+  left: 150px;
+  top: 5px;
+  animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    top: 5px;
+  }
+  50% {
+    top: -15px;
+  }
+}
+
 
 .header.active .logo-light,
 .header .logo-dark { display: none; }
@@ -822,6 +849,9 @@ img {
   /**
    * HEADER
    */
+  .header {
+    background-color: #0f8fa7;
+  }
 
   .header .btn {
     display: block;
@@ -1035,3 +1065,8 @@ img {
    /* Center the list items horizontally */
 }
 
+.home-video {
+  margin: 0 -57px;
+  width: calc(100% + 114px);
+  margin-top: 85px;
+}

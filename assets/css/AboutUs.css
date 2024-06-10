@@ -140,13 +140,23 @@ body {
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
+    padding-bottom: 16px;
+    transition: all 500ms ease-in-out;
   }
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card button {
+  margin-top: 16px;
+}
   
   .about-section {
     padding: 20px;
     text-align: center;
-    height: 50vh;
-   background-color: #5ce1e681;
+    height: 180px;
+    background-color: #0f8fa7;
     color: white;
     position: relative;
 }

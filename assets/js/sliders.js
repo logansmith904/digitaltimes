@@ -6,10 +6,10 @@ const text1_options = [
 ];
 
 const text2_options = [
-    `"<div><a href="home.html">Carlo Ancelotti Cavaliere OMRI Ufficiale OSI (born 10 June 1959) is an Italian professional football manager and former player</a><button>Read More</button></div>`,
-    `*/<div>Why you shouldn't buy the new iPhone<button>Read More</button></div>`,
-    `*/<div>Is life actually real?<button>Read More</button></div>`,
-    `*/<div>How to learn JS in 2 months<button>Read More</button></div>`
+    ``,
+    ``,
+    ``,
+    ``
 ];
 
   const color_options = ["#EBB9D2", "#FE9968", "#7FE0EB", "#6CE5B1"];
