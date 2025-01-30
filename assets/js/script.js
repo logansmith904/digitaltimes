@@ -141,3 +141,31 @@ const initAccordion = function (currentAccordion) {
 }
 
 for (let i = 0, len = accordions.length; i < len; i++) { initAccordion(accordions[i]); }
+
+// News letter succes message 
+document.getElementById("newsletterForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent actual form submission
+
+  let emailInput = document.getElementById("newsletterEmail").value.trim();
+  let successMessage = document.getElementById("successMessage");
+
+  if (!validateEmail(emailInput)) {
+      alert("Please enter a valid email address.");
+      return;
+  }
+
+  // Show success message and reset the form
+  successMessage.style.display = "block";
+  this.reset();
+
+  // Hide message after 3 seconds
+  setTimeout(() => {
+      successMessage.style.display = "none";
+  }, 3000);
+});
+
+// Email validation function
+function validateEmail(email) {
+  let re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(email);
+}
