@@ -490,7 +490,13 @@ body.nav-active { overflow: hidden; }
   padding: 40px;
   box-shadow: var(--shadow-2);
   border-radius: var(--radius-6);
+  height: 380px; /* Set a fixed height for the card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures even distribution of content */
+  overflow: hidden; /* Ensures no content overflows outside the card */
 }
+
 
 .service-card .card-icon {
   width: 60px;
