@@ -1105,3 +1105,12 @@ body.nav-active { overflow: hidden; }
   .feature-list { grid-template-columns: 1fr 1fr; }
 
 }
+
+.success-message {
+  color: white;  
+  font-size: 15px;
+  margin-top: 10px;
+  display: none;
+  text-align: center;
+  font-weight: 600;
+}
